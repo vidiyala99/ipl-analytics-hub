@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ipl_raw
+    schema: ipl
+    tables:
+      - name: stg_matches
+        description: "Raw match metadata loaded during ingestion phase"
+      - name: stg_deliveries
+        description: "Raw ball-by-ball deliveries loaded during ingestion phase"

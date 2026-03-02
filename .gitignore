@@ -1,0 +1,44 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+.expo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# dbt
+dbt_ipl/target/
+dbt_ipl/dbt_packages/
+dbt_ipl/logs/
+
+# Data & Logs
+data/
+*.log
+stderr.txt
+stdout.txt
+ingestion.log
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+
+# Docker
+.docker/
