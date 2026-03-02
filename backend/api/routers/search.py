@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from ..database import get_db
+from database import get_db
 import datetime
 
 router = APIRouter(prefix="/search", tags=["search"])

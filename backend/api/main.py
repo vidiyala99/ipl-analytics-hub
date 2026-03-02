@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routers import teams, batting, bowling, venues, search, players
+from routers import teams, batting, bowling, venues, search, players
 
 app = FastAPI(
     title="IPL Analytics Platform API",

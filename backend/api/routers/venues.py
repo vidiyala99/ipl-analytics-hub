@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from ..database import get_db, get_cache, set_cache
+from database import get_db, get_cache, set_cache
 import datetime
 
 router = APIRouter(prefix="/venues", tags=["venues"])

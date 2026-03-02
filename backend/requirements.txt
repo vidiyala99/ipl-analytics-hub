@@ -1,0 +1,10 @@
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+redis==5.0.3
+pydantic==2.6.3
+SQLAlchemy==2.0.28
+psycopg2-binary==2.9.9
+pandas==2.2.1
+sqlalchemy-cockroachdb==2.0.2  # (In case needed, but we're on Supabase)
+python-multipart==0.0.9  # Often used in FastAPI
+alembic==1.13.1  # If migrations are added
